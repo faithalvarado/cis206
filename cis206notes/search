@@ -1,0 +1,32 @@
+/*
+ * Write a program that will include the following:
+ * 1. A class that will store mountain details which will included the following:
+ *    member for name
+ *    member for country
+ *    member for elevation
+ *    have setters + getters
+ *    
+ *    A member function call toMeters that will take the elevation and convert
+ *    the value from feet to meters and return the converted value.
+ *    
+ *    The relationship for feet to meters is 1 meter per 3.2808 feet
+ *    
+ * 2. In the main function of the main class (for java) create 7 instances of Mountain objects
+ *    and put the mountain data from the table above.
+ * 
+ * 3. Put mountain objects in an appropriate data structure
+ * 
+ * 4. Write a method called minElevation in the (main class for java)
+ * 
+ * 5. Iterate over the data structure that contains the Mountain objects and print out the Mountain data above
+ *    + addition with elevation in feet and meters
+ * 
+ * 6. programmatically print out the elevation and name of the shortest mountain (No hard code this)
+ * 
+ * data for mountain:
+ * mountain: Chimborazo / Matterhorn / Olympus / Everest / Mount Marcy-adirondacks / Mount Mitchell-Blue Bridge /
+ * Zugspitze
+ * Country: Ecuador / Switzerland / Greece (Macedonia) / Nepal / United States / United States / Switzerland
+ * Elevation: 20,549 ft / 14,692 ft/ 9,573 ft / 29,029 ft/ 5,344ft / 6,684ft / 9,719ft
+ * 
+ */
