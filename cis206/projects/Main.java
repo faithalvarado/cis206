@@ -1,3 +1,11 @@
+/*
+ * File: Main.java
+ * Description: Final project Exam program
+ * Created: Tuesday. Jun 6, 2022, 11:30
+ * Author: Faith Alvarado
+ * email: faitha2011@student.edu
+ */
+
 public class Main {
     public static Mountain minElevation(Mountain mountains[]) {
         
