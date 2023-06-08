@@ -9,15 +9,14 @@
 public class Main {
     public static Mountain minElevation(Mountain mountains[]) {
         
-        int minindex = 0;
-        int i;
+        int minElevation = 0;
 
-        for (i = 0; i < mountains.length; i++) {
-            if (mountains[i].getelevation() < mountains[minindex].getelevation()){
-                minindex = 1;
+        for (int i = 0; i < mountains.length; i++) {
+            if (mountains[i].getelevation() < mountains[minElevation].getelevation()){
+                minElevation = 1;
             }
         }
-        return mountains[minindex];
+        return mountains[minElevation];
     }
 
     public static void main(String[] args) {
@@ -35,16 +34,16 @@ public class Main {
                         ,"Country","Elevation(ft)","Elevation(meters)"); //prints out the labels on top
     
         for (Mountain mountain : mountains) {
-            System.out.printf("%-30s %-20s %8.0f %20.2f\n",
+            System.out.printf("%-30s %-20s %8.0f %18.0f\n",
 
             mountain.getname(), mountain.getcountry(), mountain.getelevation(),
 
             Mountain.toMeters(mountain.getelevation())); // prints the Mountain data that is assigned
         }
 
-        Mountain smallest = minElevation(mountains);
-        System.out.println("The Smallest Mountain is... " + smallest.getname() + " located in " + 
-                            smallest.getcountry() + " with the elevation of " + smallest.getelevation()
-                             + "ft."); //tells the coder what mountain has the smallest elevation
+        Mountain shortest = minElevation(mountains);
+        System.out.println("\nThe Shortest Mountain is " + shortest.getname() + " located in " + 
+                            shortest.getcountry() + " with the elevation of " + shortest.getelevation()
+                             + "ft.\n"); //tells the coder what mountain has the shortest elevation
     }
 }
