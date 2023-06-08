@@ -1,3 +1,11 @@
+/*
+ * File: Mountain.java
+ * Description: Final project Exam program
+ * Created: Tuesday. Jun 6, 2022, 11:30 pm
+ * Author: Faith Alvarado
+ * email: faitha2011@student.edu
+ */
+
 public class Mountain {
 
     //members

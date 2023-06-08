@@ -1,4 +1,11 @@
 /*
+ * File: Search
+ * Description: instructions
+ * Created: Tuesday. Jun 6, 2022, 11:30
+ * Author: Faith Alvarado
+ * email: faitha2011@student.edu
+
+
  * Write a program that will include the following:
  * 1. A class that will store mountain details which will included the following:
  *    member for name
