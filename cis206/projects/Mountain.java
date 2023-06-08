@@ -11,6 +11,7 @@ public class Mountain {
         this.elevation = 0;
     }
 
+    //setter part
     public Mountain(String name, String country, int elevation) {
         this.name = name;
         this.country = country;
@@ -26,7 +27,9 @@ public class Mountain {
     public void setelevation(int elevation) {
         this.elevation = elevation;
     }
-    //returns the information to the coder
+
+    //returns the information to the coder aka getter part
+
     public String getname() {
         return name;
     }
