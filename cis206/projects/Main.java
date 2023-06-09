@@ -13,7 +13,7 @@ public class Main {
 
         for (int i = 0; i < mountains.length; i++) {
             if (mountains[i].getelevation() < mountains[minElevation].getelevation()){
-                minElevation = 1;
+                minElevation = i;
             }
         }
         return mountains[minElevation];
